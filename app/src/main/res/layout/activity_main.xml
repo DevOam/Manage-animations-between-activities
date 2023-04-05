@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/button_fade_in"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Fade In"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/button_fade_out"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Fade Out"
+        android:layout_below="@id/button_fade_in"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/button_slide_in_left"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Slide In Left"
+        android:layout_below="@id/button_fade_out"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/button_slide_out_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slide Out Right"
+        android:layout_below="@id/button_slide_in_left"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/button_zoom_in"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Zoom In"
+        android:layout_below="@id/button_slide_out_right"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/button_zoom_out"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Zoom Out"
+        android:layout_below="@id/button_zoom_in"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/button_rotate"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Rotate"
+        android:layout_below="@id/button_zoom_out"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/Custom_transitions"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Custom transitions"
+        android:layout_below="@id/button_rotate"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FFC107"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
